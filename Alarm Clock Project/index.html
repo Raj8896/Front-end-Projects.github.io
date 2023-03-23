@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Alarm Clock </title>
+        <link rel="stylesheet" href="pp.css">
+    </head>
+    <body>
+        <div class = "container1"id ="container1">
+            <section class = "container">
+              <div>
+                <img class ="timer" src = "alarmclock.jfif">
+              </div>
+              <div class="time-display">
+                <div id="clock"></div>
+              </div>
+              <form class = "setalarm">
+                <label class="alarm-heading"></label><br>
+                <div class="set-alarm-field">
+                    <input type="number" name="a-hour" id="a_hour" placeholder="Hr" max="23" min="00">
+                    <input type="number" name="a-min" id="a_min" placeholder="min" max="59" min="00">
+                    <input type="number" name="a-sec" id="a_sec" placeholder="sec" max="59" min="00">
+                    <select required name="ampm" id="am-pm">
+                        <option value="AM">AM</option>
+                        <option value="PM">PM</option>
+                    </select>
+                </div>
+                <div class="controls">
+                    <button type="submit" class="set-alarm">Set Alarm</button>
+                    <button type="reset"  class="clear-alarm" onclick="clearAlarm()">Stop Alarm</button>
+                </div>
+              </form>
+              </section>
+              <hr style="margin-top:25px">
+              <section>
+                <div class="alarm-heading">
+                    <h3>Upcoming Alarms</h3>
+                </div>
+                <div>
+                  <ul id="myList">
+
+                  </ul>
+                </div>
+              </section>
+          </div>
+        <script src="pp.js"></script>
+    </body>
+</html>

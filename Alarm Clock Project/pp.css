@@ -1,0 +1,135 @@
+html {
+    height: 100%;
+    width: 100%;
+}
+body {
+    margin-top: 5%;
+    margin-left: 40%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-right: 40%;
+}
+.container1{
+    background-color: orange;
+    border-style: solid;
+    color: orangered;
+    align-content: center;
+    border-width: 5px;
+    border-radius: 200px;
+}
+
+.customStyle{
+    background-color: darkgrey;
+    border-style: solid;
+    color:lightgrey;
+    border-width: 5px;
+    border-radius:20px; 
+}
+
+.container{
+    align-content: center;
+    text-align: center;
+}
+
+.time-display{
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    background-color: white;
+    width: 230px;
+    height: 10%;
+    border-radius: 4px;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-left: 15px;
+}
+
+.timer{
+    background-image:none ;
+    width: 80px;
+    height: 65px;
+    margin-top: 17px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+}
+
+#clock{
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: black;
+    align-content: center;
+    margin-left:2px;
+}
+
+.set-alarm-field{
+    margin-top: 2px;
+    height: 40px;
+    padding-top: 0px;
+}
+
+.controls button{
+    background-color: rgb(160,57,84);
+    border: none;
+    color: wheat;
+    cursor: pointer;
+    transition: background-color 1.5s ease-out;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    width: 95px;
+    height: 35px;
+    border-radius: 20px;
+    font-size: 0.9rem;
+    font-weight: 500;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.controls button:hover{
+    background-color: #cc3300;
+}
+
+.alarm-heading{
+    color:#003300;
+    font-family: 'sans-serif';
+    margin-left: 5px;
+}
+
+#myList{
+    margin-top:10px;
+    list-style-type: none;
+    
+}
+
+#myList li{
+    font-size: 1rem;
+    color:whitesmoke;
+    align-content: center;
+    background-color:black;
+    height: 1.5rem;
+    margin-left: -40px;
+    border-radius: 4px;
+    padding-left: 16px;
+    padding-top: 8px;
+    width: 250px;
+    margin-bottom: 10px;
+
+}
+
+
+.time-list{
+    display: flex;
+    flex-direction: row;
+}
+
+
+.time-list span{
+    width: 160px;
+    margin-right: 18px;
+    
+}
+
+.time-list button{
+    background-color: #5d759d;
+    border-color: #5d759d;
+    border-radius: 3px;
+    border-width: 0px;
+    height: 22px;
+    color: whitesmoke;
+}
